@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+        <div class="user signiBx">
+            <div class="imagBox"> <img src="image/Cultura1.jpg"></div>
+            <div class="formBox">
+                <form>
+                    <h2>Login</h2>
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <input type="submit" value="Entrar">
+                    <p class="singup">Ainda não tem uma conta? <a href="#" onclick="ToggleForm()">Criar</a></p>
+                </form>
+            </div>
+        </div>
+
+        <div class="user signupBx">
+            
+            <div class="formBox">
+                <form>
+                    <h2>Criar uma Conta</h2>
+                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirma-Password">
+                    <input type="submit" value="Criar">
+                    <p class="singup">Já tem uma conta? <a href="#" onclick="ToggleForm()">Entrar</a></p>
+                </form>
+            </div>
+
+            <div class="imagBox"> <img src="image/Cultura4.jpg"></div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function ToggleForm(){
+        container=document.querySelector('.container');
+        container.classList.toggle('active');
+        section=document.querySelector('section');
+        section.classList.toggle('active');
+    }
+</script>
+</body>
+</html>

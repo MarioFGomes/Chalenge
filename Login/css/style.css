@@ -1,0 +1,201 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    background-color: #6495b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+section .container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+section.active{
+    background-color: #7d8858;
+}
+
+section .container .user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+section .container .user .imagBox
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+section .container .user .imagBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .container .user .formBox{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    transition: 0.5s;
+}
+
+section .container .user .formBox h2{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+    
+}
+
+section .container .user .formBox input{
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    margin: 8px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+section .container .user .formBox input[type="submit"]{
+    max-width: 100px;
+    background-color: #677eff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+section .container .user.signupBx .formBox input[type="submit"]{
+    background-color: #e73e49;
+}
+
+section .container .user .formBox .singup{
+    position: relative;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+section .container .user .formBox .singup a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #577eff;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+section .container .signupBx a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #577eff;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+section .container .signupBx{
+    pointer-events: none;
+}
+
+section .container.active .signupBx{
+    pointer-events: initial;
+}
+
+section .container .signupBx .formBox{
+    top: 100%;
+}
+
+section .container .signupBx .imagBox{
+    top: -100%;
+    transition: 0.5s;
+}
+
+section .container.active .signupBx .formBox{
+    top: 0;
+}
+
+
+
+section .container.active .signupBx .imagBox{
+    top: 0;
+}
+
+
+section .container .signiBx .formBox{
+    top: 0;
+}
+
+section .container.active .signiBx .formBox{
+    top: 100%;
+}
+
+section .container .signiBx .imagBox{
+    top:0;
+    transition: 0.5s;
+}
+
+
+section .container.active .signiBx .imagBox{
+    top: -100%;
+}
+
+@media (max-width:991px){
+
+    section .container{
+        max-width: 400px;
+    }
+
+    section .container .imagBox{
+        display: none;
+    }
+
+    section .container .user .formBox{
+        width: 100%;
+    }
+
+    section .container.active .signiBx .formBox{
+        top: -100%;
+    }
+}

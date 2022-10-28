@@ -1,0 +1,71 @@
+
+.containerList{
+    width:18rem ;
+    height: 8rem;
+    margin: 14rem auto;
+    text-align: center;
+    padding: 5rem;
+    border-radius: .5rem;
+}
+
+.btn-add{
+    text-align: center;
+    color: white;
+    padding: .5rem;
+    background-color: orangered;
+    width: 6rem;
+    cursor: pointer;
+    margin: 2px 4px 2px 4px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.btn-remove{
+    text-align: center;
+    color: white;
+    padding: .3rem;
+    background-color: red;
+    width: 4rem;
+    cursor: pointer;
+    margin: 2px 4px 2px 4px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.p-text{
+    margin-top: 2rem;
+}
+
+.titleList{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -20px;
+}
+
+.input-tarefa{
+    width: 10rem;
+    padding: .2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline:none;
+    padding-left: 10px;
+}
+
+.tarefa{
+    list-style-type: decimal;
+    padding-top: 1rem;
+    margin-top: -10px;
+    position: relative;
+    left: -30px;
+}
+.list{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+}

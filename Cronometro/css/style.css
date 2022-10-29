@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.Container{
+    width:18rem ;
+    height: 4rem;
+    margin: 14rem auto;
+    text-align: center;
+    padding: 5rem;
+    border-radius: .5rem;
+}
+
+
+
+.relogio{
+    color:black;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2px;
+}
+.pausado{
+    color:red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2px;
+}
+
+button{
+    text-align: center;
+    color: black;
+    padding: .5rem;
+    background-color: aqua;
+    width: 60px;
+    cursor: pointer;
+    margin: 2px 4px 2px 4px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+
+}

@@ -1,2 +1,2 @@
-# CSS-Efeitos
-Este repositório tem como objectivo mostrar o Poder do Css Html e JavaScript para criar efeitos incríveis
+# Chalenge
+This is a challenge repository for beginners in HTML CSS AND JavaScript

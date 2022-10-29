@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+
+
+.container {
+  max-width: 640px;
+  margin: -200px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+form button:hover{
+  background: var(--primary-color-darker);
+}
+
+.calculadora{
+  width: 400px;
+}
+
+.display{
+  font-size: 2em;
+  width:100%;
+  text-align:right;
+  border-radius: 8px;
+  border:1px solid rgb(158, 158, 158)
+  
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  font-size:1em;
+  border:none;
+  background-color: #e7e4e4;
+  cursor: pointer;
+}
+
+#title{
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.btn:hover{
+  background-color: white;
+  color:black;
+}
+.btn-eq:hover{
+  background-color: aqua;
+}
+
+
+
